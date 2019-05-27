@@ -1,0 +1,112 @@
+//category
+.category{
+    h2{
+        position: relative;
+        border-bottom: 1px solid $link-border;
+        height:20px;
+        color: $link-success;
+        padding-bottom: 10px ;
+        text-indent: 15px;
+        &:before{
+            position: absolute;
+            top:0;
+            left:0;
+            width:4px;
+            height:20px;
+            content:'';
+            background-color:$link-success;
+        }
+    }
+}
+.public{
+    dl{
+        display: block;
+        padding: 10px 0;
+        dt{
+            display: block;
+            float: left;
+            width: 50px;
+            line-height: 25px;
+             color: $link-gray-e9;
+        }
+        dd{
+            width: 1080px;
+            float:right;
+            display:block;
+            a{
+             margin-right: 10px;
+             line-height: 25px;
+             &:hover{
+               color:$link-success;
+             }
+             &.active{
+                border-radius: 35px;
+                background-color:$link-success;
+                color: $link-white;
+                padding: 0 10px;
+             }
+            }
+        }
+    }
+}
+.dasheds{
+    border-bottom: 1px dashed $link-border;
+}
+.tabs{
+    ul{
+        li{
+            height: 35px;
+            line-height: 35px;
+            float: left;
+            position: relative;
+            padding: 0 25px;
+            cursor: pointer;
+            &.on{
+                border-bottom: 1px solid $link-success;
+                color:$link-success;
+                height: 35px;
+            }
+            &:first-child:before{
+                position: absolute;
+                top: 10px;
+                right: 0;
+                height: 15px;
+                width: 1px;
+                background-color: $link-border;
+                content:'';
+            }
+        }
+    }
+}
+// page
+.page{
+    list-style: none;
+    text-align: center;
+    margin: auto;
+}
+.page>li{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.page .pageItem{
+    border: solid thin #e3e8e7;
+    margin: 3px;
+}
+.page .pageItemActive{
+    border: solid thin #44b437;
+    margin: 5px;
+    background-color: #44b437;
+    color:white;
+}
+.page .pageItem:hover{
+    border: solid thin #44b437;
+    background-color: #44b437;
+    color:white;
+}
+.page .pageItemDisable{
+    border: solid thin #e3e8e7;
+    margin: 3px;
+    background-color: #e3e8e7;
+}

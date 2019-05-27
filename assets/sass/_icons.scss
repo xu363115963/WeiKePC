@@ -1,0 +1,79 @@
+
+[class*="icons-"] {
+    display: inline-block;
+    line-height: 1;
+    background: url("../images/sprite.png") no-repeat;
+    overflow: hidden;
+}
+.icons-infor{
+    @include appicon(0,-43px);
+}
+.icons-books{
+    @include appicon(0,-100px);
+}
+.icons-foe{
+    @include appicon(0,-157px);
+}
+.icons-video{
+   @include appicon(0,-214px);
+}
+.icons-serve{
+     @include appicon(0,-271px);
+}
+.icons-reduce{
+    @include appicon(0,-329px);
+}
+.icons-weibo{
+    @include appicon(0,-403px);
+}
+.icons-weixin{
+    @include appicon(0,-430px);
+}
+.icons-app{
+    @include appicon(0,-460px);
+}
+.icons-phone{
+    @include appicon(0,-490px);
+}
+.icons-up{
+    @include appicon(0,-651px);
+}
+.icons-serveb{
+    @include appicon(0,-523px);
+}
+.icons-record{
+   @include appicon(0,-555px);
+}
+.icons-refer{
+    @include appicon(0,-585px);
+}
+.icons-audi{
+    @include appicon(0,-617px);
+}
+.icons-upr{
+    @include appicon(0,-694px);
+}
+.icons-youx{
+   @include appicon(-47px, 0);
+}
+.icons-bin{
+   @include appicon(-77px, 0); 
+}
+.icons-item01{
+   @include appicon(-54px, -403px); 
+}
+.icons-item02{
+   @include appicon(-54px, -441px); 
+}
+.icons-item03{
+   @include appicon(-54px, -480px); 
+}
+.icons-item04{
+   @include appicon(-54px, -519px); 
+}
+.icons-item05{
+   @include appicon(-54px, -562px); 
+}
+.icons-item06{
+   @include appicon(-54px, -611px); 
+}

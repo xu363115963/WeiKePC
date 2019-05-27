@@ -1,0 +1,170 @@
+.bgc-white {
+    @include bgc-white($link-white);
+}
+.bgc-primary {
+    @include bgc-primary($link-primary);
+}
+.bgc-success {
+    @include bgc-success($link-success);
+}
+.bgc-danger {
+    @include bgc-danger($link-danger);
+}
+.bgc-royal {
+    @include bgc-royal($link-royal);
+}
+.bgc-orange {
+    @include bgc-orange($link-orange);
+}
+.link-danger7 {
+    @include link-danger7($link-danger7);
+}
+.link-gray-fe {
+    @include link-gray-fe($link-gray-fe);
+}
+
+.header{
+    height: 100px;
+    .logo{
+        width: 300px;
+        img{
+            width: 154px;
+            height: 60px;
+            overflow: hidden;
+        }
+    }
+    .search{
+        width: 600px;
+        height: 40px;
+        .form-woapper{
+            border: 2px solid $link-success;
+            input[type="text"]{
+                float:left;
+                width: 490px;
+                height: 36px;
+                border: none;
+                padding: 0 5px;
+                font-size: $font-size;
+            }
+             input[type="button"]{
+                float: right;
+                width: 87px;
+                height: 38px;
+                background: url("../images/btn.jpg")  no-repeat;
+                border: none;
+             }
+        }
+    }
+    .logging{
+        .topber{
+            ul{
+                li{
+                    float: left;
+                    display: block;
+                    //padding: 0 5px;
+                    height:100px;
+                    line-height: 100px;
+                    position: relative;
+                    &.active,
+                    a:hover{
+                      color:  $link-success;
+                    }
+                    .imsgesr{
+                        border-radius: 50%;
+                        position: relative;
+                        top: 10px;
+                        width: 34px;
+                        height: 34px;
+                        overflow: hidden;
+                    }
+                    .submenushow{
+                        display: none;
+                        width:406px;
+                        height: 243px;
+                        position: absolute;
+                        top:80px;
+                        right: -40%;
+                        background: url("../images/bgci.png") no-repeat;
+                        z-index: 99999;
+                    }
+                    .submenu{
+                        display: none;
+                        position: absolute;
+                        top: 90px;
+                        left: -50px;
+                        width:150px;
+                        height: 220px;
+                        z-index: 9999;
+                    }
+                     i{
+                        color: $link-gray-e9;
+                        font-size: 10px;
+                    }
+                    span{
+                        font-size: 24px;
+                        float: left;
+                        &.fts{
+                            font-size: 18px;
+                             color:  $link-success;
+                             margin-right: 3px;
+                        }
+                    }
+
+                    a{
+                       &.default{
+                       color:  $link-success;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}
+.border{
+    border-bottom: 1px solid $link-border
+}
+.muenlist{
+    padding: 30px 20px 0;
+   a{
+     width: 33.33%;
+     display: block;
+     float: left;
+     text-align: center;
+      &:hover{
+            color:  $link-success;
+        }
+     p{
+        line-height: 30px;
+     }
+     b{
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        background: url("../images/icons.jpg") no-repeat;
+        overflow: hidden;
+        &.icons_shez{
+            @include appicon(0,0);
+        }
+        &.icons_kec{
+            @include appicon(-120px,0);
+        }
+        &.icons_shc{
+            @include appicon(-240px,0);
+        }
+     }
+   }
+}
+.Logout{
+    height: 50px;
+    line-height: 50px;
+    background-color: #f1f3f2;
+    margin: 43px 12px 0 3px;
+    padding: 0 20px;
+    a{
+        float: right;
+        &:hover{
+            color:  $link-success;
+        }
+    }
+}

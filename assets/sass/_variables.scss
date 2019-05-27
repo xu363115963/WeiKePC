@@ -1,0 +1,75 @@
+@charset "utf-8";
+// font-family
+$font-family-sans-serif:"Microsoft YaHei";
+$font-family-base:           $font-family-sans-serif !default;
+
+// color
+$white:            #fff         !default;              //白色
+$primary:          #125cb3      !default;             //蓝色
+$success:          #44b437      !default;            //绿色
+$warning:          #fdd000      !default;           //黄色
+$danger:           #e02b1a      !default;          //红色
+$royal:            #7b68c4      !default;         //紫色
+$orange:           #ff7e00      !default;        //橙色
+
+$primary25:         #25a0fe      !default;             //蓝色
+$primary12:         #1251a0      !default;             //蓝色
+
+
+$black:            #222222         !default;       //黑色
+$gray-e3:          #333        !default;      //灰色
+$gray-e6:          #666      !default;     //灰色
+$gray-e9:          #999         !default;    //灰色
+$gray-fa:          #383838      !default;
+
+$bgc:              #f1f3f2      !default;
+$border:           #e3e8e7      !default;   
+$hover:            #e2dd13      !default;   
+
+$danger7:          #ff8080      !default; 
+$gray-fe:          #eee         !default; 
+
+
+
+$link-white:        $white       !default; 
+$link-primary:      $primary     !default;
+$link-primary25:    $primary25     !default;
+$link-primary12:    $primary12     !default;
+
+
+$link-success:     $success     !default;  
+$link-warning:     $warning     !default;
+$link-danger:      $danger      !default;
+$link-royal:       $royal       !default;
+$link-orange:      $orange      !default;
+
+
+$link-danger7:     $danger7     !default;
+$link-gray-fe:     $gray-fe     !default;
+
+
+$link-black:       $black       !default;
+$link-gray-e3:     $gray-e3     !default;
+$link-gray-e6:     $gray-e6     !default;
+$link-gray-e9:     $gray-e9     !default;
+
+$link-gray-fa:      $gray-fa    !default;
+$link-border:       $border     !default;
+$link-hover:        $hover      !default;
+
+$link-bgc:          $bgc   !default;
+
+
+
+// Witdh
+$Witdh:            100%           !default;
+$container:        1200px          !default;
+$link-body:        $container     !default;
+
+
+// height
+$height:           44px           !default; 
+$link-height:      $height        !default; 
+
+// font-size
+$font-size:        14px           !default;
